@@ -1,0 +1,19 @@
+# Dependencies
+.venv/
+venv/
+
+# Credentials & secrets
+.env
+intersight-rest-api/key/
+
+# Build artifacts
+__pycache__/
+*.py[cod]
+*.mypy_cache/
+.mypy_cache/
+
+# Output files (generated at runtime)
+output/
+
+# IDE
+.vscode/

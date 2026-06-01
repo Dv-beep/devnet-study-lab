@@ -1,0 +1,1095 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "badgeId": "100234",
+      "accessLevel": "SUPER_ADMIN",
+      "badgeStatus": "suspended"
+    }
+  ],
+  "doors": [
+    {
+      "id": "1",
+      "name": "Data Center",
+      "secured": true
+    },
+    {
+      "id": "2",
+      "name": "Main Entrance",
+      "secured": false
+    },
+    {
+      "id": "3",
+      "name": "Office",
+      "secured": true
+    }
+  ],
+  "accessLogs": [
+    {
+      "id": "1",
+      "employeeId": 1,
+      "doorId": 1,
+      "timestamp": "2024-06-01T12:00:00Z",
+      "accessGranted": true,
+      "status": "granted"
+    },
+    {
+      "id": "2",
+      "employeeId": 1,
+      "doorId": 2,
+      "timestamp": "2024-06-01T12:05:00Z",
+      "accessGranted": true,
+      "status": "invalid access level"
+    },
+    {
+      "id": "3",
+      "employeeId": 1,
+      "doorId": 3,
+      "timestamp": "2024-06-01T12:10:00Z",
+      "accessGranted": true,
+      "status": "not granted"
+    },
+    {
+      "id": "7zP-IRQJhN0",
+      "employeeId": 1,
+      "doorId": 3,
+      "status": "granted"
+    }
+  ],
+  "quotes": [
+    {
+      "id": "1",
+      "text": "The only way to do great work is to love what you do.",
+      "author": "Steve Jobs"
+    }
+  ],
+  "models": [
+    {
+      "id": "1",
+      "name": "llama3",
+      "status": "offline",
+      "gpu": "RTX 3080"
+    }
+  ],
+  "rag_queries": [
+    {
+      "id": "1",
+      "query": "What is the capital of France?",
+      "collection": "general_knowledge",
+      "success": true
+    },
+    {
+      "query": "How do I reset MFA?",
+      "collection": "sops",
+      "success": true,
+      "id": "9s_d2ebjGR8"
+    }
+  ],
+  "devices": [
+    {
+      "id": "1",
+      "hostname": "sw-core-01",
+      "ip_address": "10.1.1.10",
+      "status": "offline",
+      "vendor": "Cisco"
+    },
+    {
+      "id": "2",
+      "hostname": "sw-core-02",
+      "ip_address": "20.1.1.10",
+      "status": "offline",
+      "vendor": "Cisco"
+    },
+    {
+      "hostname": "sw-access-01",
+      "ip_address": "100.0.0.1",
+      "status": "online",
+      "vendor": "Cisco",
+      "id": "c1IM2HZZ9L8"
+    },
+    {
+      "hostname": "sw-access-001",
+      "ipAddress": "10.1.1.1",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "CBBXe-UHRqM"
+    },
+    {
+      "hostname": "sw-access-002",
+      "ipAddress": "10.1.1.2",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "6GnFHuPu6q0"
+    },
+    {
+      "hostname": "sw-access-003",
+      "ipAddress": "10.1.1.3",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "zS3Jv29EiOo"
+    },
+    {
+      "hostname": "sw-access-004",
+      "ipAddress": "10.1.1.4",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "g2Zpq3XOaOs"
+    },
+    {
+      "hostname": "sw-access-005",
+      "ipAddress": "10.1.1.5",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "I42lcQVYQ4U"
+    },
+    {
+      "hostname": "sw-access-006",
+      "ipAddress": "10.1.1.6",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "hSKRx3CFCnk"
+    },
+    {
+      "hostname": "sw-access-007",
+      "ipAddress": "10.1.1.7",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "j73zXYvaMhM"
+    },
+    {
+      "hostname": "sw-access-008",
+      "ipAddress": "10.1.1.8",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "b0DdmPuEv8Y"
+    },
+    {
+      "hostname": "sw-access-009",
+      "ipAddress": "10.1.1.9",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "bZSa8kgzQok"
+    },
+    {
+      "hostname": "sw-access-010",
+      "ipAddress": "10.1.1.10",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "nb95Ar0CuHc"
+    },
+    {
+      "hostname": "sw-access-011",
+      "ipAddress": "10.1.1.11",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "heczJlRmO4A"
+    },
+    {
+      "hostname": "sw-access-012",
+      "ipAddress": "10.1.1.12",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "80P0X3csYXM"
+    },
+    {
+      "hostname": "sw-access-013",
+      "ipAddress": "10.1.1.13",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "mTLbzw9YXn4"
+    },
+    {
+      "hostname": "sw-access-014",
+      "ipAddress": "10.1.1.14",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "Kq3WqJTcEm4"
+    },
+    {
+      "hostname": "sw-access-015",
+      "ipAddress": "10.1.1.15",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "397iR3W0eBg"
+    },
+    {
+      "hostname": "sw-access-016",
+      "ipAddress": "10.1.1.16",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "mkjhO6kKqXY"
+    },
+    {
+      "hostname": "sw-access-017",
+      "ipAddress": "10.1.1.17",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "9rI3Z2BFIbA"
+    },
+    {
+      "hostname": "sw-access-018",
+      "ipAddress": "10.1.1.18",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "2HlKEVrrHoY"
+    },
+    {
+      "hostname": "sw-access-019",
+      "ipAddress": "10.1.1.19",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "MoyLrL_QXcc"
+    },
+    {
+      "hostname": "sw-access-020",
+      "ipAddress": "10.1.1.20",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "lqBHUltE3mA"
+    },
+    {
+      "hostname": "sw-access-021",
+      "ipAddress": "10.1.1.21",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "Ny6u7ciPz8o"
+    },
+    {
+      "hostname": "sw-access-022",
+      "ipAddress": "10.1.1.22",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "esuP9pAVD_A"
+    },
+    {
+      "hostname": "sw-access-023",
+      "ipAddress": "10.1.1.23",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "JwzHJZPq7ic"
+    },
+    {
+      "hostname": "sw-access-024",
+      "ipAddress": "10.1.1.24",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "AjilxY6v2LM"
+    },
+    {
+      "hostname": "sw-access-025",
+      "ipAddress": "10.1.1.25",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "17swJAT8EfA"
+    },
+    {
+      "hostname": "sw-access-026",
+      "ipAddress": "10.1.1.26",
+      "status": "offline",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "WHF5EI5_q78"
+    },
+    {
+      "hostname": "sw-access-027",
+      "ipAddress": "10.1.1.27",
+      "status": "offline",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "ZXbDinRTrtA"
+    },
+    {
+      "hostname": "sw-access-028",
+      "ipAddress": "10.1.1.28",
+      "status": "offline",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "vv6q8Ao-ips"
+    },
+    {
+      "hostname": "sw-access-029",
+      "ipAddress": "10.1.1.29",
+      "status": "offline",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "ldUqiI4fWHU"
+    },
+    {
+      "hostname": "sw-access-030",
+      "ipAddress": "10.1.1.30",
+      "status": "offline",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "98UR7i0230U"
+    },
+    {
+      "hostname": "sw-access-031",
+      "ipAddress": "10.1.1.31",
+      "status": "offline",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "CKGtMfln4H8"
+    },
+    {
+      "hostname": "sw-access-032",
+      "ipAddress": "10.1.1.32",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "eKbs2Wy4mqw"
+    },
+    {
+      "hostname": "sw-access-033",
+      "ipAddress": "10.1.1.33",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "I6YJeEt5xW0"
+    },
+    {
+      "hostname": "sw-access-034",
+      "ipAddress": "10.1.1.34",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "MM_s31wLpWs"
+    },
+    {
+      "hostname": "sw-access-035",
+      "ipAddress": "10.1.1.35",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "KGCMniTt3eY"
+    },
+    {
+      "hostname": "sw-access-036",
+      "ipAddress": "10.1.1.36",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "eooiKbq5l0M"
+    },
+    {
+      "hostname": "sw-access-037",
+      "ipAddress": "10.1.1.37",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "gup9VY0SpIU"
+    },
+    {
+      "hostname": "sw-access-038",
+      "ipAddress": "10.1.1.38",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "mNb_RKp78s8"
+    },
+    {
+      "hostname": "sw-access-039",
+      "ipAddress": "10.1.1.39",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "EgE0zNenkNk"
+    },
+    {
+      "hostname": "sw-access-040",
+      "ipAddress": "10.1.1.40",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "axxDJGqzA9I"
+    },
+    {
+      "hostname": "sw-access-041",
+      "ipAddress": "10.1.1.41",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "f_ywww3XanU"
+    },
+    {
+      "hostname": "sw-access-042",
+      "ipAddress": "10.1.1.42",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "5fiIpbRRC_c"
+    },
+    {
+      "hostname": "sw-access-043",
+      "ipAddress": "10.1.1.43",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "W9jPFf8Bl6s"
+    },
+    {
+      "hostname": "sw-access-044",
+      "ipAddress": "10.1.1.44",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "GWAyC5BOMMQ"
+    },
+    {
+      "hostname": "sw-access-045",
+      "ipAddress": "10.1.1.45",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "5aYxhTAhbu8"
+    },
+    {
+      "hostname": "sw-access-046",
+      "ipAddress": "10.1.1.46",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "l-IF1EIACvY"
+    },
+    {
+      "hostname": "sw-access-047",
+      "ipAddress": "10.1.1.47",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "7Dd8Y4mBLYw"
+    },
+    {
+      "hostname": "sw-access-048",
+      "ipAddress": "10.1.1.48",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "k8fu0HvHSMs"
+    },
+    {
+      "hostname": "sw-access-049",
+      "ipAddress": "10.1.1.49",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "OHDD8OiTiuM"
+    },
+    {
+      "hostname": "sw-access-050",
+      "ipAddress": "10.1.1.50",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "tmiLUHmK2Xc"
+    },
+    {
+      "hostname": "sw-access-051",
+      "ipAddress": "10.1.1.51",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "UxzygdDDFlQ"
+    },
+    {
+      "hostname": "sw-access-052",
+      "ipAddress": "10.1.1.52",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "5ksEAf9RbK8"
+    },
+    {
+      "hostname": "sw-access-053",
+      "ipAddress": "10.1.1.53",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "oStD3IYdAm4"
+    },
+    {
+      "hostname": "sw-access-054",
+      "ipAddress": "10.1.1.54",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "Ixu8S8EQKwM"
+    },
+    {
+      "hostname": "sw-access-055",
+      "ipAddress": "10.1.1.55",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "Nyuy1P-nbFE"
+    },
+    {
+      "hostname": "sw-access-056",
+      "ipAddress": "10.1.1.56",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "1Kp0Ce2Og-c"
+    },
+    {
+      "hostname": "sw-access-057",
+      "ipAddress": "10.1.1.57",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "TvDhB6RkmVk"
+    },
+    {
+      "hostname": "sw-access-058",
+      "ipAddress": "10.1.1.58",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "xK7FXEEPRlA"
+    },
+    {
+      "hostname": "sw-access-059",
+      "ipAddress": "10.1.1.59",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "fM5L6_ozXt8"
+    },
+    {
+      "hostname": "sw-access-060",
+      "ipAddress": "10.1.1.60",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "zUbH0p66ndI"
+    },
+    {
+      "hostname": "sw-access-061",
+      "ipAddress": "10.1.1.61",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "oWqhLs6DVhw"
+    },
+    {
+      "hostname": "sw-access-062",
+      "ipAddress": "10.1.1.62",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "-sqJB7BMN3U"
+    },
+    {
+      "hostname": "sw-access-063",
+      "ipAddress": "10.1.1.63",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "f_OlSfL56Z0"
+    },
+    {
+      "hostname": "sw-access-064",
+      "ipAddress": "10.1.1.64",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "XKEZinYNOvA"
+    },
+    {
+      "hostname": "sw-access-065",
+      "ipAddress": "10.1.1.65",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "h3nE_luLMTU"
+    },
+    {
+      "hostname": "sw-access-066",
+      "ipAddress": "10.1.1.66",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "B9xviPRgGGI"
+    },
+    {
+      "hostname": "sw-access-067",
+      "ipAddress": "10.1.1.67",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "iHXzbU9H7Ko"
+    },
+    {
+      "hostname": "sw-access-068",
+      "ipAddress": "10.1.1.68",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "FKty6Ki_Asw"
+    },
+    {
+      "hostname": "sw-access-069",
+      "ipAddress": "10.1.1.69",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "xy4VYCZCoaw"
+    },
+    {
+      "hostname": "sw-access-070",
+      "ipAddress": "10.1.1.70",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "XQhHqDoxwrI"
+    },
+    {
+      "hostname": "sw-access-071",
+      "ipAddress": "10.1.1.71",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "gHKvPRXrosM"
+    },
+    {
+      "hostname": "sw-access-072",
+      "ipAddress": "10.1.1.72",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "svvVP0P_21Q"
+    },
+    {
+      "hostname": "sw-access-073",
+      "ipAddress": "10.1.1.73",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "el88LMbagNU"
+    },
+    {
+      "hostname": "sw-access-074",
+      "ipAddress": "10.1.1.74",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "mThJrc91Y-8"
+    },
+    {
+      "hostname": "sw-access-075",
+      "ipAddress": "10.1.1.75",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "i0utUANHdME"
+    },
+    {
+      "hostname": "sw-access-076",
+      "ipAddress": "10.1.1.76",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "_kr1lII8H9E"
+    },
+    {
+      "hostname": "sw-access-077",
+      "ipAddress": "10.1.1.77",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "CYlsV3iHtTc"
+    },
+    {
+      "hostname": "sw-access-078",
+      "ipAddress": "10.1.1.78",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "-Zbzisor0IQ"
+    },
+    {
+      "hostname": "sw-access-079",
+      "ipAddress": "10.1.1.79",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "Lf4GeVXRqg0"
+    },
+    {
+      "hostname": "sw-access-080",
+      "ipAddress": "10.1.1.80",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "Bul7DM-IMlk"
+    },
+    {
+      "hostname": "sw-access-081",
+      "ipAddress": "10.1.1.81",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "8Ub2wKDUXrU"
+    },
+    {
+      "hostname": "sw-access-082",
+      "ipAddress": "10.1.1.82",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "gDA_XuYvmYQ"
+    },
+    {
+      "hostname": "sw-access-083",
+      "ipAddress": "10.1.1.83",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "-ETS5GuXGxk"
+    },
+    {
+      "hostname": "sw-access-084",
+      "ipAddress": "10.1.1.84",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "vUuCnRRt46k"
+    },
+    {
+      "hostname": "sw-access-085",
+      "ipAddress": "10.1.1.85",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "zAYUMTAkpS8"
+    },
+    {
+      "hostname": "sw-access-086",
+      "ipAddress": "10.1.1.86",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "4e42fE7NYoA"
+    },
+    {
+      "hostname": "sw-access-087",
+      "ipAddress": "10.1.1.87",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "jkBmH3KAfjI"
+    },
+    {
+      "hostname": "sw-access-088",
+      "ipAddress": "10.1.1.88",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "MZ5HjehKZwg"
+    },
+    {
+      "hostname": "sw-access-089",
+      "ipAddress": "10.1.1.89",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "rWyOnk1nbSc"
+    },
+    {
+      "hostname": "sw-access-090",
+      "ipAddress": "10.1.1.90",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "nvwZy3qzG5c"
+    },
+    {
+      "hostname": "sw-access-091",
+      "ipAddress": "10.1.1.91",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "f5lJhfO0yn0"
+    },
+    {
+      "hostname": "sw-access-092",
+      "ipAddress": "10.1.1.92",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "GO779SfTPV8"
+    },
+    {
+      "hostname": "sw-access-093",
+      "ipAddress": "10.1.1.93",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "ICfZoYoe4vo"
+    },
+    {
+      "hostname": "sw-access-094",
+      "ipAddress": "10.1.1.94",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "nyL0gn1aFsw"
+    },
+    {
+      "hostname": "sw-access-095",
+      "ipAddress": "10.1.1.95",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "QmHHDD-bAJs"
+    },
+    {
+      "hostname": "sw-access-096",
+      "ipAddress": "10.1.1.96",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "EwNJQ0WRL_w"
+    },
+    {
+      "hostname": "sw-access-097",
+      "ipAddress": "10.1.1.97",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "QIfSq6G_Nrc"
+    },
+    {
+      "hostname": "sw-access-098",
+      "ipAddress": "10.1.1.98",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "uzZkWiz7h3w"
+    },
+    {
+      "hostname": "sw-access-099",
+      "ipAddress": "10.1.1.99",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "vSXuy8qkjT4"
+    },
+    {
+      "hostname": "sw-access-100",
+      "ipAddress": "10.1.1.100",
+      "status": "online",
+      "vendor": "Cisco",
+      "model": "Catalyst 9300",
+      "id": "Cc45fd5x7-w"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "1",
+      "severity": "high",
+      "source": "firewall",
+      "syslog": "Failed login attempt from 192.168.1.100"
+    },
+    {
+      "severity": "critical",
+      "source": "XDR",
+      "message": "Ransomeware behavior detected",
+      "id": "WiLOgXFCpx8"
+    },
+    {
+      "severity": "critical",
+      "source": "Firewall",
+      "message": "Unusual network traffic observed",
+      "id": "BVCmFqhOYrI"
+    },
+    {
+      "severity": "high",
+      "source": "XDR",
+      "message": "Unusual network traffic observed",
+      "id": "cpNaC2ASSQU"
+    },
+    {
+      "severity": "medium",
+      "source": "VPN",
+      "message": "Unauthorized access to sensitive data",
+      "id": "az_i2mR8Rfg"
+    },
+    {
+      "severity": "high",
+      "source": "SIEM",
+      "message": "Malware detected on endpoint",
+      "id": "g69T5nlPfmw"
+    },
+    {
+      "severity": "low",
+      "source": "VPN",
+      "message": "Malware detected on endpoint",
+      "id": "twH6Nvd2fbI"
+    },
+    {
+      "severity": "high",
+      "source": "Firewall",
+      "message": "Unusual network traffic observed",
+      "id": "n54w2OIx-ok"
+    },
+    {
+      "severity": "critical",
+      "source": "XDR",
+      "message": "Unusual network traffic observed",
+      "id": "Bu3qsNa2zP4"
+    },
+    {
+      "severity": "medium",
+      "source": "Firewall",
+      "message": "Multiple failed login attempts",
+      "id": "MiQLR3Te3k8"
+    },
+    {
+      "severity": "high",
+      "source": "Firewall",
+      "message": "Data exfiltration attempt detected",
+      "id": "2silFs2f4p8"
+    },
+    {
+      "severity": "low",
+      "source": "Firewall",
+      "message": "Suspicious login attempt detected",
+      "id": "TTKNZ1sOpuw"
+    },
+    {
+      "severity": "low",
+      "source": "SIEM",
+      "message": "Unusual network traffic observed",
+      "id": "uJxWYUvcvKo"
+    },
+    {
+      "severity": "low",
+      "source": "Firewall",
+      "message": "Suspicious login attempt detected",
+      "id": "69IqGmSMC-E"
+    },
+    {
+      "severity": "low",
+      "source": "XDR",
+      "message": "Unauthorized access to sensitive data",
+      "id": "vxOif7HKnGE"
+    },
+    {
+      "severity": "medium",
+      "source": "XDR",
+      "message": "Unauthorized access to sensitive data",
+      "hostname": "firewall-01",
+      "id": "zwMUDmfCvD4"
+    },
+    {
+      "severity": "medium",
+      "source": "SIEM",
+      "message": "Unusual network traffic observed",
+      "hostname": "firewall-01",
+      "id": "m005qBciDcA"
+    },
+    {
+      "severity": "medium",
+      "source": "Firewall",
+      "message": "Malware detected on endpoint",
+      "hostname": "router-01",
+      "id": "AGlEKVIAi8M"
+    },
+    {
+      "severity": "medium",
+      "source": "SIEM",
+      "message": "Unusual network traffic observed",
+      "hostname": "router-01",
+      "id": "rZI4rlSlons"
+    },
+    {
+      "severity": "medium",
+      "source": "XDR",
+      "message": "Malware detected on endpoint",
+      "hostname": "router-01",
+      "id": "2csh2DOCBk4"
+    },
+    {
+      "severity": "high",
+      "source": "Firewall",
+      "message": "Unusual network traffic observed",
+      "hostname": "firewall-01",
+      "id": "G_xid8wuLtk"
+    },
+    {
+      "severity": "high",
+      "source": "sw-core-01",
+      "message": "Device sw-core-01 is offline",
+      "id": "614rFPFUNm0"
+    },
+    {
+      "severity": "high",
+      "source": "sw-core-02",
+      "message": "Device sw-core-02 is offline",
+      "id": "iadcXOGCQsA"
+    },
+    {
+      "severity": "high",
+      "source": "sw-access-026",
+      "message": "Device sw-access-026 is offline",
+      "id": "6ngQ2oLENzA"
+    },
+    {
+      "severity": "high",
+      "source": "sw-access-027",
+      "message": "Device sw-access-027 is offline",
+      "id": "JjeKXvkd6Os"
+    },
+    {
+      "severity": "high",
+      "source": "sw-access-028",
+      "message": "Device sw-access-028 is offline",
+      "id": "HOKgTBu-F5U"
+    },
+    {
+      "severity": "high",
+      "source": "sw-access-029",
+      "message": "Device sw-access-029 is offline",
+      "id": "lhW-O8ZfBq4"
+    },
+    {
+      "severity": "high",
+      "source": "sw-access-030",
+      "message": "Device sw-access-030 is offline",
+      "id": "WiImu-fK7OE"
+    },
+    {
+      "severity": "high",
+      "source": "sw-access-031",
+      "message": "Device sw-access-031 is offline",
+      "id": "uOJsJRsLJLQ"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

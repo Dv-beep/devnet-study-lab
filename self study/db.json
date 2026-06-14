@@ -1,64 +1,74 @@
 {
   "devices": [
     {
-      "hostname": "sw-access-01",
+      "hostname": "sw-core-01",
       "ipAddress": "10.1.1.1",
       "status": "online",
-      "id": "Vli7vfseBnI"
+      "platformId": "Catalyst 9300",
+      "id": "N4miEG4BCUE"
     },
     {
-      "hostname": "sw-access-02",
+      "hostname": "sw-core-02",
       "ipAddress": "10.1.1.2",
       "status": "online",
-      "id": "eNEoipE1X2s"
+      "platformId": "Catalyst 9300",
+      "id": "5PqPCIUDISU"
     },
     {
-      "hostname": "sw-access-03",
+      "hostname": "sw-core-03",
       "ipAddress": "10.1.1.3",
       "status": "online",
-      "id": "sr16sIg1a-8"
+      "platformId": "Catalyst 9300",
+      "id": "TnhxthBaBPE"
     },
     {
-      "hostname": "sw-access-04",
+      "hostname": "sw-core-04",
       "ipAddress": "10.1.1.4",
       "status": "online",
-      "id": "LbznO_Z_Q6A"
+      "platformId": "Catalyst 9300",
+      "id": "N7KfvKLYko8"
     },
     {
-      "hostname": "sw-access-05",
+      "hostname": "sw-core-05",
       "ipAddress": "10.1.1.5",
       "status": "online",
-      "id": "NTy-6Iixwug"
+      "platformId": "Catalyst 9300",
+      "id": "rj84ZMUh4v0"
     },
     {
-      "hostname": "sw-access-06",
+      "hostname": "sw-core-06",
       "ipAddress": "10.1.1.6",
       "status": "online",
-      "id": "cT0X3WZ3Lys"
+      "platformId": "Catalyst 9300",
+      "id": "4ETtmoO6fQc"
     },
     {
-      "hostname": "sw-access-07",
+      "hostname": "sw-core-07",
       "ipAddress": "10.1.1.7",
       "status": "online",
-      "id": "xvQ-ae47vj0"
+      "platformId": "Catalyst 9300",
+      "id": "OSMUdH6lZHQ"
     },
     {
-      "hostname": "sw-access-08",
+      "hostname": "sw-core-08",
       "ipAddress": "10.1.1.8",
       "status": "online",
-      "id": "PSQ8XPJYPr4"
+      "platformId": "Catalyst 9300",
+      "id": "lQy3Cdeb04g"
     },
     {
-      "hostname": "sw-access-09",
+      "hostname": "sw-core-09",
       "ipAddress": "10.1.1.9",
       "status": "online",
-      "id": "aioO2VUCkgY"
+      "platformId": "Catalyst 9300",
+      "id": "x7GLT5mchNo"
     },
     {
-      "hostname": "sw-access-10",
+      "hostname": "sw-core-10",
       "ipAddress": "10.1.1.10",
       "status": "online",
-      "id": "EqpmDfKTHdQ"
+      "platformId": "Catalyst 9300",
+      "id": "5sYV4CTu6lw"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
